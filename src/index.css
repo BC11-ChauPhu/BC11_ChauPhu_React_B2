@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(../public/glassesImage/background.jpg);
 }
 
 code {
@@ -29,6 +30,24 @@ img {
   background-size: cover;
   width: 300px;
   height: 300px;
+  position: relative;
+}
+
+.model-with-glass .glass-description {
+  position: absolute;
+  bottom: 0;
+}
+
+.model-with-glass .glass-description p {
+  margin: 0!important;
+}
+
+
+.model-with-glass .glass {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 50%;
 }
 
 .glasses-container {
